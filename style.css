@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #f0f0f098;
+    background-color: #111111;
+   font-family: Arial, sans-serif;
     font-style: italic, sans-serif;
     color: black;
 }
@@ -19,6 +20,8 @@ body {
     max-width: 50%;
     margin: 20px auto;
     padding: 100px;
+    background-color: #E0F3FF;
+    border-radius: 100px;
 }
 
 
@@ -28,18 +31,37 @@ body {
     background-color: bisque;
     width: 50%;
     margin: 0 auto;
+    border-radius: 100px;
 }
 
- .icon {
-    display: inline-flex;
+.icon {
+     display: inline-flex;
     justify-content: center;
     flex-direction: row;
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s;
-}
+    width : 40px ;
+    height : 40px ;
+    border: 2px solid #333; 
+    border-radius: 50%;
+    
+    transition : transform 0.3s ;
+} 
 
 h1 {
   text-align: center; 
-  background-color: #ffcccc; 
+  height: 100px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; 
+}
+
+a:hover {
+   text-decoration: underline;
 }
